@@ -4,8 +4,10 @@
  * main - This is the main function
  * description - starting point of the program
  * Return : an integer (success)
+ *
+ * Return: 1 integer
  */
-/* Return: value is int */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

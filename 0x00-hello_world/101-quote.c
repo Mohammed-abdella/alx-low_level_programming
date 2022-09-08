@@ -3,8 +3,9 @@
 /**
  * main - This is the main function
  * description - starting point of the program
- * Return : an integer (success)
+ * Return: an integer (success)
  */
+
 int main(void)
 {
 	fprintf(stderr, "and that piece of art is useful\" - ");

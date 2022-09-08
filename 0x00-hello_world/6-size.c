@@ -3,9 +3,10 @@
 /**
  * main - This is the main function
  * description - starting point of the program
- * Return : an integer (success)
+ *
+ * Return: an integer (success)
  */
-/* Return: value is int */
+
 int main(void)
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
