@@ -21,7 +21,7 @@ int main(void)
 				for (d = a; d <= 9; d++)
 				{
 
-					if (a == c && b == d)
+					if (a == c && b >= d)
 						continue;
 					putchar(a + '0');
 					putchar(b + '0');
