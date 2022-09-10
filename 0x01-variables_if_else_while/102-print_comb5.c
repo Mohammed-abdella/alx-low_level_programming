@@ -18,9 +18,11 @@ int main(void)
 		{
 			for (c = a; c <= 9; c++)
 			{
-				for (d = a; d <= 9; d++)
+				for (d = 0; d <= 9; d++)
 				{
 
+					if (a == c && b == d)
+						continue;
 					if (a == c && b >= d)
 						continue;
 					putchar(a + '0');
@@ -28,8 +30,8 @@ int main(void)
 					putchar(' ');
 					putchar(c + '0');
 					putchar(d + '0');
-					if (a == 9 && b == 8 && c == 9 && d ==9)
-						break;
+					if (a == 9 && c ==  9 && d == 9 && b == 8)
+						continue;
 					putchar(',');
 					putchar(' ');
 				}
