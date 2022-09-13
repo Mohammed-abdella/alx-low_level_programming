@@ -11,9 +11,10 @@
 void print_to_98(int a)
 {
 	int counter;
+
 	if (a <= 98)
 	{
-		for(counter = a; counter <= 98; counter++)
+		for (counter = a; counter <= 98; counter++)
 		{
 			if (counter == 98)
 			{
@@ -25,7 +26,7 @@ void print_to_98(int a)
 	}
 	else
 	{
-		for(counter = a; counter >= 98; counter--)
+		for (counter = a; counter >= 98; counter--)
 		{
 			if (counter == 98)
 			{
