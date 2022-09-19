@@ -5,7 +5,7 @@
  */
 void  puts_half(char *a)
 {
-	int n, i;
+	int n, i, s;
 
 	n = 0;
 	i = 0;
@@ -13,7 +13,12 @@ void  puts_half(char *a)
 	{
 		n++;
 	}
-	for (i = n / 2; i < n; i++)
+	if (n % 2 == 0)
+		s = n / 2;
+	else
+		s = (n / 2) - 1;
+
+	for (i = s; i < n; i++)
 	{
 		_putchar(a[i]);
 	}

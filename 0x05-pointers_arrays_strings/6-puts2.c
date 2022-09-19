@@ -5,10 +5,16 @@
  */
 void  puts2(char *a)
 {
-	_putchar(*a++);
-	while (*a++)
+	int n, i;
+
+	n = 0;
+	i = 0;
+
+	while(a[i++])
+		n++;
+	for (i = 0; i < n; i += 2)
 	{
-		_putchar(*a++);
+		_putchar(a[i]);
 	}
 	_putchar('\n');
 }
