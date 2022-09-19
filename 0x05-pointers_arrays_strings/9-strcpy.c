@@ -14,5 +14,6 @@ char* _strcpy(char *a, char *b)
 		a[i] = b[i];
 		i = i + 1;
 	}
+	a[i] = '\0';
 	return (a);
 }
