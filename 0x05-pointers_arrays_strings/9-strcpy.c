@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * *_strcpy - to concatenate strings
+ * _strcpy - to concatenate strings
  * @a: the address of the destination string
  * @b: the address of the source string
+ * Return: the addres of the destination string
  */
-char* _strcpy(char *a, char *b)
+char *_strcpy(char *a, char *b)
 {
 	int i;
 
