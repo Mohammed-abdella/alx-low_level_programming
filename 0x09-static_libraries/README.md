@@ -1,1 +1,1 @@
-Project folder on c recursion
+Project folder onc static libraries
