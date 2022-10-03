@@ -28,6 +28,11 @@ char *str_concat(char *a, char *b)
 	ch = malloc(sizeof(char) * (s1 + s2 + 1));
 	if (ch == NULL)
 		return (NULL);
+	if (a == NULL && b == NULL)
+	{
+		ch = NULL;
+		return (ch);
+	}
 	if (a == NULL)
 	{
 		for (i = 0; i < s2; i++)
