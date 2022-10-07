@@ -21,7 +21,7 @@ void *_realloc(void *a, unsigned int b, unsigned int c)
 		m = malloc(c);
 		if (m == NULL)
 			return (NULL);
-		return m;
+		return (m);
 	}
 	if (c == 0 && a != NULL)
 	{
