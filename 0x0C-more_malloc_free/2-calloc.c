@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * array_range - to allocate memory for array
+ * _calloc - to allocate memory for array
  * @a: the number of elements in the array
  * @b: the number of bytes for each element
  * Return: a pointer to the newly created array
