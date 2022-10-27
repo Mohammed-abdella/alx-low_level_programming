@@ -3,7 +3,7 @@
 
 /**
  * print_binary - to convert and print binary equivalent
- * @b: the input number to be converted
+ * @n: the input number to be converted
  */
 void print_binary(unsigned long int n)
 {

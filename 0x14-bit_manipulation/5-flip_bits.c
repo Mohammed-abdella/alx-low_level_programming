@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * flip_bit - to count no of bits flipped to change a number
+ * flip_bits - to count no of bits flipped to change a number
  * @n: the input number to use
  * @m: the number n to be changed to
  * Return: number of bits
